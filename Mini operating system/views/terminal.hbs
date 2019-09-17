@@ -1,0 +1,48 @@
+<html style = 'background-image: url("../img/{{class}}.jpg"), url("../img/output.jpg");'>
+
+<form method='GET' action='http://localhost:3000/vfs'>
+command: <input type='text' name='command'>
+option: <input type='text' name='option'>
+path: <input type='text' name='path'>
+<input type='submit'>
+</form>
+
+
+<form method='POST' action='http://localhost:3000/vfs'>
+command: <input type='text' name='command'>
+path: <input type='text' name='path'>
+content: <input type='text' name='content'>
+<input type='submit'>
+</form>
+
+
+<ul>
+<link rel = "stylesheet" href = "./css/style.css">
+<p>
+<textarea rows="10" cols="100">
+
+{{output}}
+
+{{#each arr1}}
+{{this}}
+{{/each}}
+
+{{#each arr2}}
+{{this}}
+{{/each}}
+
+{{#each treeArr}}
+level: {{level}}  name: {{name}}
+{{/each}}
+
+</textarea>
+</p>
+</ul>
+
+</html>
+
+
+
+
+
+

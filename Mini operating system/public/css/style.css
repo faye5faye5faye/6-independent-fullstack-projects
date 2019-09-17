@@ -1,0 +1,22 @@
+header{
+	color : blue; 
+	text-align: center; 
+	font-size: 500%;
+}
+
+
+body{
+	color : white;
+	margin-left: 80px;
+	margin-top: 40px;
+	padding: 40px;
+	background-size: 100%;
+}
+
+p{
+	color : black;
+	margin-left: 80px;
+	margin-top: 60px;
+	margin-right: 80px;
+	margin-bottom: 60px;
+}

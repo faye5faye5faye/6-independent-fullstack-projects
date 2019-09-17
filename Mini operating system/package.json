@@ -1,0 +1,27 @@
+{
+  "name": "package-lock.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fayeshao",
+  "license": "ISC",
+  "description": "## Links",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-008-spring-2019/faye5faye5faye5-homework04.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-008-spring-2019/faye5faye5faye5-homework04/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-008-spring-2019/faye5faye5faye5-homework04#readme",
+  "keywords": [
+    "1111"
+  ],
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.3",
+    "moment": "^2.24.0"
+  }
+}
