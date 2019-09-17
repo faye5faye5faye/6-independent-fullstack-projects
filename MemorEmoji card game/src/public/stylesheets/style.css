@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+}
+
+
+table{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+td, th {
+	table-layout: fixed;
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+  	border-collapse: collapse;
+    border: 1px solid black;
+    text-align: middle;
+}
+
+p{
+    font-size: 20px;
+}
+
+.quit{
+    position: relative;
+    top: 20px;
+}
+
+.game{
+    display:none;
+    text-align: center;
+} 
+.result{
+    display:none
+} 
+
+.error-message{
+    display:none
+}
+
+.click{
+	display:none
+}
+
+.td{
+	font-size: 0px;
+}
+
+.store{
+    font-size: 20px;
+}
+
+.success{
+    font-size: 20px;
+}
+
+.failure{
+    font-size: 20px;
+}
+
+
