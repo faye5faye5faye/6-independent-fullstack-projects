@@ -1,0 +1,42 @@
+.a{
+	background-image : url('../img/a.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+}
+
+header{
+	font-size: 50px; 
+	background-color: #ffd700; 
+}
+
+
+.b{
+	color: #000000; 
+}
+
+body{
+	background-color: #ffd700; 
+	border: 0px; 
+	margin: 0px; 
+	padding: 0px; 
+	position: absolute; 
+	font-family: Helvetica Neue; 
+	font-size: 20px; 
+	color: #fff; 
+	width: 1000px; 
+}
+
+
+/*.a
+{
+		position: relative;
+		top: 0;
+		left: 0;
+}
+	
+.b
+{
+		position: absolute;
+		top: 60px;
+		left: 80px;
+}*/

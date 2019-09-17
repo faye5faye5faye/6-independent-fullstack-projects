@@ -1,0 +1,21 @@
+<ul>
+
+<form method="GET" action="">
+<label for="select">Filter Books By:</label>
+<select id="select" name = "select">
+    <option value="title">Title</option>
+    <option value="author">Author</option>
+</select><input type = "text" name = "value">
+<input type = "submit">
+</form>
+
+
+<br>Title        Author        ISBN</br>
+{{#each books}}
+<li><a href="http://localhost:3000/books/{{this.slug}}">{{this.title}}</a>   {{this.author}}    {{this.isbn}}</li>
+{{/each}}
+
+
+{{comment}}
+</ul>
+
