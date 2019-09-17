@@ -1,4 +1,4 @@
-# 7 full stack projects
+# 6 full stack projects
 
 Under this repository are seven full stack side projects. 
 
